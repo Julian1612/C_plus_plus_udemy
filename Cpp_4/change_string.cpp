@@ -16,5 +16,13 @@ int main (int argc, const char * argv[])
     name.append("!!!");
     cout << name << endl;
 
+    // Zeichen im String hinzufügen
+    name.insert(4, ",");
+    cout << name << endl;
+
+    // Zeichen entfernen 
+    name.erase(5, 3);
+     cout << name << endl;
+
     return (0);
 }

@@ -10,7 +10,7 @@ int main (int argc, const char * argv[])
 
     name = "Erika Mueller";
 
-    // änge des Strings ermitteln 
+    // länge des Strings ermitteln 
     cout << name.length() << endl;
 
     // Auf einzelnes Zeichen zugreifen
