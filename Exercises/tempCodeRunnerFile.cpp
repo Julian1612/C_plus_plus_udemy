@@ -1,1 +1,0 @@
-cout << "There are " << lines << " in this text and " << words << " words." << endl;
