@@ -7,7 +7,7 @@ int input_x(int player)
     int x;
 
     cout << "It's player " << player << "'s turn" << endl;
-    cout << "Where do you want to place your figure ? (X-Position)" << endl;
+    cout << "Where do you want to place your figure ? (Y-Position)" << endl;
     cin >> x;
     return (x - 1);
 }
@@ -16,7 +16,7 @@ int input_y()
 {
     int y;
 
-    cout << "Where do you want to place your figure ? (Y-Position)" << endl;
+    cout << "Where do you want to place your figure ? (X-Position)" << endl;
     cin >> y;
     return (y - 1);
 }
@@ -76,7 +76,7 @@ void matchfield()
             check_game = check(matchfield);
             if (check_game == 1)
             {
-                cout << endl << "Player " << player << " hatt gewonnen !!" << endl << endl; 
+                cout << endl << "Player " << player << " winn !!" << endl << endl; 
                 break;
             }
             if (player == 1)
